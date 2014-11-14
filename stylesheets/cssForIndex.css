@@ -1,0 +1,487 @@
+/****************** css for Landing page index *******************/
+
+.navlist{
+	display: inline;
+	padding: 10px;
+	margin-right: 10px;
+	visibility: hidden;
+}
+
+.navitems{
+	display: inline;
+	margin-right: 15px;
+	border: thin solid transparent;
+	border-radius: 1px;
+	padding-top: 19px;
+	padding-bottom: 16px;
+	font-family: 'lato', sans-serif;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#logo{
+	font-size: 140%;
+	margin-right: 350px;
+	font-family: 'lato', sans-serif;
+}
+
+#logout{
+	margin-left: 60px;
+}
+
+.navitems:link{ color: white; }
+.navitems:hover{ background-color: #333; }
+#full{ background-color: #5CAD5C; }
+#full:hover{ background-color: #339933;  }
+#currentpage{ border-bottom: thin solid orange; }
+/* Footer css */
+.footer{
+	font-size: 60%;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	margin: auto;
+	margin-top: 172px;
+	font-family: 'lato', sans-serif;
+	width: 95%;
+	height: 55px;
+	color: white;
+}
+
+.footer img{
+	width: 50px;
+	height: 30px;
+}
+
+/* Banner/body css */
+.banner{
+	background-image: url("../images/back40.png");
+	width: 99%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+
+.header{
+	font-size: 200%;
+	border: thin solid transparent;
+	float: left;
+	width: 720px;
+	margin-left: 20px;
+	margin-top: 70px;
+	text-align: center;
+	color: black;
+}
+
+/* centerpiece where user login and sign up css #e6e6e6 */
+.centerpiece{
+	border: thin solid #e6e6e6;
+	border-radius: 1px;
+	background-color: #e6e6e6;
+	width: 500px;
+	height: 180px;
+	margin-left: 760px;
+	margin-top: 200px;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 30px;
+	box-shadow: 4px 6px 6px 4px rgba(0,0,0,.3);
+	font-family: 'lato', sans-serif;
+	border: thin solid transparent;
+}
+
+.loginHalf{
+	float: left;
+}
+
+.signupHalf{
+	float: right;
+}
+
+/* login specific css */
+.logdirections, .signupDirections{
+	text-align: left;
+	font-weight: bold;
+	font-size: 105%;
+}
+
+#username, #password{
+	height: 25px;
+	width: 200px;
+	padding-left: 5px;
+	border: thin solid white;
+}
+#username{	
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border-bottom: thin solid #e6e6e6;
+}
+
+#password{
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
+	border-top: thin solid #e6e6e6;
+	margin-bottom: 5px;
+}
+
+#loginsubmit, #signupsubmit{
+	height: 32px;
+	width: 206px;
+	border-radius: 1px;
+	background-color: #428bca;
+	border: thin solid #428bca;
+	color: white;
+	cursor: pointer;
+}
+
+/* signup specific css */
+#signupsubmit{
+	background-color: #5cb85c;
+	border: thin solid #5cb85c;
+	margin-top: -4px;
+}
+
+.signupStory{
+	margin-top: -2px;
+	text-align: left;
+}
+
+/* css for invalid login message */
+.invalidlogin{
+	color: red;
+	border: thin solid red;
+	border-radius: 1px;
+	padding: 3px;
+}
+
+/*********** body of home page - slideshow/video/info **********/
+/** custom home navbar **/
+.homenavbar{
+	text-align: right;
+	margin-top: -5px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-family: 'lato', sans-serif;
+	border: thin solid transparent;
+	width: 99%;
+}
+/* custom Footer css for home page */
+.homefooter{
+	font-size: 60%;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	width: 100%;
+}
+.homefooter img{
+	width: 50px;
+	height: 30px;
+}
+#homenavlist{
+	visibility: visible;
+}
+.homebanner{
+	width: 99%;
+}
+/*row 1 - banner */
+.introbox{
+	width:101.2%;
+	height: 600px;
+	margin-left: -8px;
+	text-align: center;
+	background-image: url('../images/back33.png');
+	margin-top: -10px;
+}
+.introhead{
+	font-size: 500%;
+	font-family: 'lato', sans-serif;
+	color: white;
+	/*padding-top: 70px;*/
+}
+.subhead{
+	margin-top: -20px;
+	color: white;
+	font-family: 'lato', sans-serif;
+	margin-bottom: 40px;
+	color: white;
+}
+#shopbtn{
+	height: 50px;
+	width: 206px;
+	border-radius: 1px;
+	background-color: #428bca;
+	border: thin solid #428bca;
+	color: white;
+	font-family: 'lato', sans-serif;
+	font-size: 105%;
+}
+#shopbtn:hover{ 
+	box-shadow: 0px 4px 4px 2px rgba(0,0,0,.5);
+	cursor: pointer;
+}
+
+/* row 2 jersey info*/
+.newjerseysbox{
+	width: 900px;
+	height: 500px;
+	margin-left: -8px;
+	padding-top: 40px;
+	padding-left: 230px;
+}
+.newjerseysbox h1{
+	font-size: 300%;
+	font-family: arial;
+	margin-left: 30px;
+	font-family: 'lato', sans-serif;
+}
+.new img{
+	border-radius: 150px;
+	width: 140px;
+	height: 160px;
+}
+.new{
+	width: 160px;
+	height: 200px;
+	text-align: center;
+}
+#jersey3{
+	margin-left: 15px;
+	margin-right: 15px;
+}
+#jersey2{
+	margin-left: 15px;
+}
+#jersey4{
+	margin-right: 15px;
+}
+.newjerseytable{
+	margin-top: 120px;
+}
+.newbuy{
+	height: 25px;
+	width: 80px;
+	border-radius: 2px;
+	background-color: #428bca;
+	border: thin solid #428bca;
+	color: white;
+	font-family: 'lato', sans-serif;
+	cursor: pointer;
+	padding-top: 3px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-top: 140px;
+	margin-left: -20px;
+	position: absolute;
+	box-shadow: -5px 4px 3px 0px rgba(0,0,0,.5);
+}
+
+/*row 3 - slide show*/
+.slideshowbox{
+	width: 1000px;
+	height: 550px;
+	margin-left: -9px;
+}
+.slides{
+	width: 1350px;
+	height: 550px;
+	overflow: hidden;
+	margin-left: -2px; 
+}
+.slides img{
+	width: 1350px;
+	height: 545px;
+}
+.slidebtn{
+	color: white;
+}
+/*row 4 - on sale jerseys */
+.salebox{
+	width: 1350px;
+	height: 520px;
+	margin-left: -9px;
+	padding-top: 20px;
+}
+.salebox h1{
+	text-align: center;
+	font-size: 300%;
+	font-family: arial;
+	margin-bottom: -70px;
+	font-family: 'lato', sans-serif;
+}
+.sale{
+	margin-left: 70px;
+	margin-top: 190px;
+}
+.saleprod{
+	width: 200px;
+	text-align: center;
+}
+.saleprod h2{	
+	width: 80px;
+	text-align: center;
+	margin-left: 55px;
+	color: white;
+	margin-top: 150px;
+	font-family: 'lato', sans-serif;
+	position: absolute;
+	border: thin solid red;
+	border-radius: 2px;
+	background-color: red;
+	box-shadow: -5px 4px 3px 0px rgba(0,0,0,.5);
+}
+.saleprod img{
+	width: 140px;
+	height: 170px;
+	border-radius: 150px;
+	margin-top: 10px;
+}
+/* row 5 - video*/
+.vidbox{
+	width:1350px;
+	height: 520px;
+	margin-left: -9px;
+	background-image: url('../images/back21.png');
+}
+.vid{
+	width: 1110px;
+	height: 500px;
+	margin-left: 150px;
+}
+.vidDescrip{
+	color: white;
+	margin-left: 90px;
+	margin-top: 50px;
+	font-family: 'lato', sans-serif;
+}
+#youtube{
+	margin-top: 50px;
+	border: none;
+}
+/*** row 7 - proven science section ***/
+.sciencebox{
+	width: 100%;
+	height: 540px;
+}
+#scienceImgBox{
+	float: left;
+	width: 45%;
+	margin-top: 90px;
+	margin-left: 50px;
+}
+#scienceImgBox img{
+	width: 100%;
+	height: 360px;
+}
+#scienceText{
+	float: right;
+	font-family: 'lato', sans-serif;
+	width: 45%;
+	margin-top: 150px;
+	margin-right: 50px;
+}
+#scienceText h1{
+	font-size: 300%;
+}
+
+
+
+
+
+
+/** row 6 - reviews section **/
+.reviewsbox{
+	width:1351px;
+	height: 850px;
+	margin-left: -9px;
+	background-color: #4D704D;
+	margin-top: -60px;
+}
+.reviewsbox p{
+	font-family: 'lato', sans-serif;
+}
+.reviews{
+	width: 800px;
+	height: 200px;
+	margin-left: 170px;
+}
+.comment{
+	font-size: 115%;
+	font-family: 'lato', sans-serif;
+}
+.pic{
+	border-radius: 150px;
+	width: 120px;
+	height: 120px;
+}
+.commentbox{
+	border: thin solid #e6e6e6;
+	background-color: #e6e6e6;
+	border-radius: 50px;
+	padding: 5px;
+}
+.tablehead{
+	font-size: 250%;
+	width: 800px;
+	margin-left: 170px;
+	color: #e6e6e6;
+	margin-top: 60px;
+	padding-top: 60px;
+}
+/*************** css for welcome page **************/
+#welcomenavlist{
+	display: inline;
+	padding: 10px;
+	margin-right: 10px;
+	visibility: hidden;
+}
+#welcomefooter{
+	font-size: 60%;
+	font-style: italic;
+	color: white;
+	text-align: center;
+	margin-top: 252px;
+	width: 90%;
+	font-family: 'lato', sans-serif;
+}
+.msgbox{
+	margin-top: 120px;
+	text-align: center;
+	border: thin solid transparent;
+	width: 600px;
+	height: 230px;
+	margin-left: 380px;
+	border-radius: 1px;
+	background-color: #e6e6e6;
+	box-shadow: 4px 6px 6px 4px rgba(0,0,0,.3);	
+}
+#logoutbtn, #homebtn{
+	height: 32px;
+	width: 206px;
+	border-radius: 1px;
+	background-color: #428bca;
+	border: thin solid #428bca;
+	color: white;
+}
+#logoutbtn:hover, #homebtn:hover{ box-shadow: 0px 4px 4px 2px rgba(0,0,0,.5); }
+#homebtn{
+	background-color: #5cb85c;
+	border: thin solid #5cb85c;
+	margin-bottom: 10px;
+}
+.welcomebanner{
+	background-image: url('../images/back33.png');
+	width: 99%;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+/******************** thank you for purhase page ********************/
+#message{
+	font-family: 'lato', sans-serif;
+	height: 260px;
+}
+/******************** survey confirm page ********************/
+#surveyfooter{
+	margin-top: 220px;
+}

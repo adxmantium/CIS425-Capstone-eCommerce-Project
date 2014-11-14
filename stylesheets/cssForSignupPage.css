@@ -1,0 +1,200 @@
+/* css for header */
+/*.navbar{
+	text-align: right;
+	margin-top: -8px;
+	margin-left: -10px;
+	margin-right: -33px;
+	padding: 15px;
+	background-color: #666;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,.3);
+	visibility: hidden;
+}*/
+
+.navlist{
+	display: inline;
+	padding: 10px;
+	margin-right: 10px;
+	visibility: hidden;
+}
+
+.navitems{
+	display: inline;
+	margin-right: 15px;
+	border: thin solid transparent;
+	border-radius: 5px;
+	padding: 4px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#logo{
+	font-size: 140%;
+	margin-right: 350px;
+}
+
+#logout{
+	margin-left: 60px;
+}
+
+.navitems:link{ color: white; }
+.navitems:hover{ background-color: #333; }
+
+/* Footer css */
+.footer{
+	font-size: 60%;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	margin-top: 105px;
+	font-family: 'lato', sans-serif;
+	color: white;
+}
+
+.footer img{
+	width: 50px;
+	height: 30px;
+}
+/* body of sign up page css */
+/* css for the test sign up page*/
+/* css for the updated sign up page*/
+#signup_fname, #signup_lname, #signup_email, 
+#signup_password, #signup_reenter, #username{
+	height: 22px;
+	width: 300px;
+	border: thin solid white;
+	padding: 5px;
+}
+
+#signup_lname, #signup_email, #signup_password, #username{
+	border-top: thin solid #CFCFCF;
+	border-bottom: thin solid #CFCFCF;
+}
+
+.signupbanner{
+	background-image: url("../images/back21.png");
+	width: 1325px;
+	height: 625px;
+}
+
+.signupcenterpiece{
+	border: thin solid transparent;
+	border-radius: 1px;
+	width: 500px;
+	height: 380px;
+	text-align: center;
+	font-family: arial;
+	margin-left: 750px;
+	margin-top: 80px;
+	margin-right: -130px;
+	background-color: #e6e6e6;
+	box-shadow: 4px 6px 6px 4px rgba(0,0,0,.3);
+	font-family: 'lato', sans-serif;
+}
+
+.input1, .input2, .input3, .input4, .input5, .input6, .input7{
+	text-align: left;
+	margin-left: 93px;
+}
+
+#signup_fname{
+	border-top-left-radius: 1px;
+	border-top-right-radius: 1px;
+	border-bottom: thin solid #CFCFCF;
+}
+
+#signup_reenter{
+	border-bottom-left-radius: 1px;
+	border-bottom-right-radius: 1px;
+	border-top: thin solid #CFCFCF;
+}
+
+#signup_favTeam{
+	margin-top: 10px;
+	height: 28px;
+	width: 312px;
+	border: thin solid white;
+	padding: 3px;
+	border-radius: 1px;
+}
+
+.signupheader{
+	font-size: 120%;
+	font-weight: bold;
+}
+
+#submitButton{
+	height: 32px;
+	width: 210px;
+	background-color: #5cb85c;
+	margin-top: 20px;
+	border: thin solid #5cb85c;
+	border-radius: 1px;
+	cursor: pointer;
+	color: white;
+}
+#submitButton:hover{ box-shadow: 0px 4px 4px 2px rgba(0,0,0,.5); }
+
+/* css for the signup Confirmation page */
+.main{
+	width: 1200px;
+	height:450px;
+	text-align: center;
+	margin-left: 70px;
+	color: white;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.p1{
+	margin-top: 70px;
+	font-size: 150%;
+	font-family: 'lato', sans-serif;
+}
+
+.p2{
+	font-size: 400%;
+	margin-top: -10px;
+	font-family: 'lato', sans-serif;
+}
+
+#homebtn{
+	height: 35px;
+	width: 210px;
+	background-color: #5cb85c;
+	margin-top: 20px;
+	border: thin solid #5cb85c;
+	border-radius: 1px;
+	color: white;
+}
+
+#logoutbtn{
+	height: 35px;
+	width: 170px;
+	background-color: #428bca;
+	margin-top: 20px;
+	border: thin solid #428bca;
+	border-radius: 1px;
+	color: white;
+}
+/* Footer css */
+.signupConfooter{
+	font-size: 60%;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	margin-top: 100px;
+	font-family: 'lato', sans-serif;
+	color:white;
+}
+
+.signupConfooter img{
+	width: 50px;
+	height: 30px;
+}
+
+
+
+

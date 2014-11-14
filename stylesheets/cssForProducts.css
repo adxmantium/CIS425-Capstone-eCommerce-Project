@@ -1,0 +1,302 @@
+/** navbar css **/
+.prodnavbar{
+	text-align: right;
+	margin-top: -3px;
+	padding: 15px;
+	background-color: rgba(0,0,0,0.7);
+	font-family: 'lato', sans-serif;
+	border-bottom: thin solid transparent;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+.prodnavlist{
+	display: inline;
+	padding: 10px;
+	margin-right: 10px;
+}
+.navitems{
+	display: inline;
+	margin-right: 15px;
+	border: thin solid transparent;
+	border-radius: 1px;
+	padding-top: 17px;
+	padding-bottom: 16px;
+}
+a{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+#logo{
+	font-size: 140%;
+	margin-right: 350px;
+}
+#logout{
+	margin-left: 60px;
+}
+.navitems:link{ color: white; }
+.navitems:hover{ background-color: #333; }
+#full{ background-color: #5CAD5C; }
+#full:hover{ background-color: #339933;  }
+#currentpage{ border-bottom: thin solid orange; }
+/** css for footer **/
+.prodfooter{
+	font-size: 60%;
+	font-style: italic;
+	color: black;
+	text-align: center;
+	right: 0;
+	left: 0;
+	margin-top: 8953px;
+	position: absolute;
+}
+
+/** background image **/
+.prodfooter img{
+	width: 50px;
+	height: 30px;
+}
+
+/*********** body of products page - jersey display sections - product list **********/
+
+.prodbanner{
+	background-image: url('../images/back33.png');
+	width: 1330px;
+	height: 500px;
+	background-attachment: fixed;
+}
+.productline{
+	margin-top: 100px;
+	margin-bottom: -95px;
+	width: 1330px;
+	height: 350px;
+}
+.productlist{
+	margin-left: 190px;
+}
+.jersey{
+	width: 280px;
+	height: 280px;
+}
+.prodbox{
+	text-align: center;
+	background-color: white;
+	width: 300px;
+	height: 350px;
+	background-image: url('../images/barca.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#jersey1{
+	background-image: url('../images/barca3.png');
+}
+#jersey2{
+	background-image: url('../images/real.jpg');
+}
+#jersey3{
+	background-image: url('../images/bayern.jpg');
+}
+#jersey4{
+	background-image: url('../images/dortmund.jpg');
+}
+#jersey5{
+	background-image: url('../images/liverpool.jpg');
+}
+#jersey6{
+	background-image: url('../images/arsenal2.jpg');
+}
+#jersey7{
+	background-image: url('../images/manu.jpg');
+}
+#jersey8{
+	background-image: url('../images/chelsea.jpg');
+}
+#jersey9{
+	background-image: url('../images/city.jpg');
+}
+#jersey10{
+	background-image: url('../images/brazil.jpg');
+}
+#jersey11{
+	background-image: url('../images/spain.jpg');
+}
+#jersey12{
+	background-image: url('../images/germany.jpg');
+}
+#jersey13{
+	background-image: url('../images/gotze.jpg');
+}
+#jersey14{
+	background-image: url('../images/athletico.jpg');
+}
+#jersey15{
+	background-image: url('../images/juve.jpg');
+}
+#jersey16{
+	background-image: url('../images/milan.jpg');
+}
+#jersey17{
+	background-image: url('../images/psg.jpg');
+}
+#jersey18{
+	background-image: url('../images/schalke.jpg');
+}
+#jersey19{
+	background-image: url('../images/celtic.jpg');
+}
+#jersey20{
+	background-image: url('../images/croatia.jpg');
+}
+#jersey21{
+	background-image: url('../images/usa2.jpg');
+}
+#jersey22{
+	background-image: url('../images/porto.jpg');
+}
+#jersey23{
+	background-image: url('../images/marseille.jpg');
+}
+#jersey24{
+	background-image: url('../images/greece.jpg');
+}
+.addToCartBtn{
+	margin-bottom: -120px;
+	position: absolute;
+	display: none;
+}
+.addToCart{
+	background-color:rgba(0,0,0,0.9);
+	color: white;
+	border: thin solid white;
+	cursor: pointer;
+	padding: 5px;
+	font-family: 'lato', sans-serif;
+	font-size: 105%;
+}
+.addToCart:hover{
+	background-color: #5cb85c;
+}
+.overlap{
+	background-color:rgba(0,0,0,0.9);
+	opacity:0;
+	width: 100%;
+	height: 100%;
+	margin-top: -21px;
+}
+.overlap h4{ 
+	font-family: 'lato', sans-serif; 
+	text-align:center;
+	padding-top: 30px;
+	color: white;
+	font-size: 40px;
+}
+.overlap a{
+	font-family: 'lato', sans-serif; 
+	text-align:center;
+	border: thin solid white;
+	padding: 3px;
+}
+.overlap a:hover{
+	background-color: #5cb85c;
+}
+.sale{
+	color:red;
+	font-family: 'lato', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	visibility: hidden;
+}
+.price{
+	color:white;
+	font-family: 'lato', sans-serif;
+	text-align: center;
+	font-size: 30px;
+	padding-top: 40px;
+}
+#jersey19 .overlap .sale, #jersey20 .overlap .sale,
+#jersey21 .overlap .sale,#jersey22 .overlap .sale,
+#jersey23 .overlap .sale, #jersey24 .overlap .sale{
+	visibility: visible;
+}
+#checkout{
+	background-image: url('../images/carticon.png');
+}
+#backhome{
+	background-image: url('../images/homeicon.png');
+}
+#email{
+	background-image: url('../images/emailicon.png');	
+}
+/****** cart preview *****/
+.cartpreview{
+	
+	width: 600px;
+	height: 280px;
+	position: fixed;
+	margin-left: 640px;
+	margin-top: -210px;
+	
+	color: white;
+	font-family: 'lato', sans-serif;
+	font-size: 110%;
+	padding: 10px;
+	padding-left: 50px;
+}
+.carttd{
+	padding-top: 10px; 
+	padding-right: 10px;
+	border: thin solid transparent;
+	background-color: rgba(0,0,0,0.5); 
+}
+.carthead{
+	border: thin solid transparent;
+	text-align: left;
+	padding: 3px 10px 3px 10px;
+	background-color: rgba(0,0,0,0.8);
+}
+#total{
+	border: thin solid transparent;
+	background-color: rgba(0,0,0,0.8);
+}
+#cartredirect{
+	background-image: url('../images/cart.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 80px;
+	width: 130px;
+	text-align: center;
+}
+#clear{
+	background-image: url('../images/clear.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 80px;
+	width: 130px;
+	text-align: center;
+}
+#home{
+	background-image: url('../images/home.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: white;
+	height: 80px;
+	text-align: center;
+}
+#cartover h5{
+	padding-top: 30px;
+	font-size: 105%;
+}
+#homeover h5{
+	padding-top: 30px;	
+	font-size: 105%;
+}
+#clearover h5{
+	padding-top: 30px;
+	font-size: 105%;
+}
+#homeover a:hover{ background-color: rgba(10,80,90,0.9);}
+#clearover a:hover{ background-color: rgba(230,8,8,0.9);}
